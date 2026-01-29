@@ -534,7 +534,7 @@ function buildProxyGroups({
         },
         {
             "name": "Apple",
-            "icon": "https://gcore.jsdelivr.net/gh/powerfullz/override-rules@master/icons/apple.png",    
+            "icon": "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png",    
             "type": "select",
             "proxies": defaultProxies
         },
