@@ -202,6 +202,7 @@ const baseRules = [
     `GEOSITE,MICROSOFT@CN,${PROXY_GROUPS.DIRECT}`,
     "GEOSITE,ONEDRIVE,OneDrive",
     "GEOSITE,MICROSOFT,Microsoft",
+    "GEOSITE,APPLE,Apple",
     "GEOSITE,TELEGRAM,Telegram",
     "GEOSITE,YOUTUBE,YouTube",
     "GEOSITE,NETFLIX,Netflix",
