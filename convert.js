@@ -220,7 +220,6 @@ const baseRules = [
     "GEOSITE,SPOTIFY,Spotify",
     "GEOSITE,BAHAMUT,Bahamut",
     "GEOSITE,BILIBILI,Bilibili",
-    "GEOSITE,PIKPAK,PikPak",
     `GEOSITE,GFW,${PROXY_GROUPS.SELECT}`,
     `GEOSITE,CN,${PROXY_GROUPS.DIRECT}`,
     `GEOSITE,PRIVATE,${PROXY_GROUPS.DIRECT}`,
@@ -589,12 +588,6 @@ function buildProxyGroups({
         {
             "name": "OneDrive",
             "icon": "https://gcore.jsdelivr.net/gh/powerfullz/override-rules@master/icons/Onedrive.png",
-            "type": "select",
-            "proxies": defaultProxies
-        },
-        {
-            "name": "PikPak",
-            "icon": "https://gcore.jsdelivr.net/gh/powerfullz/override-rules@master/icons/PikPak.png",
             "type": "select",
             "proxies": defaultProxies
         },
