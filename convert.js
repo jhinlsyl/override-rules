@@ -533,6 +533,12 @@ function buildProxyGroups({
             "proxies": defaultProxies
         },
         {
+            "name": "Apple",
+            "icon": "https://gcore.jsdelivr.net/gh/powerfullz/override-rules@master/icons/apple.png",    
+            "type": "select",
+            "proxies": defaultProxies
+        },
+        {
             "name": "YouTube",
             "icon": "https://gcore.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png",
             "type": "select",
