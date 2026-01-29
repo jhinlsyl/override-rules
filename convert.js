@@ -198,15 +198,12 @@ const baseRules = [
     `RULE-SET,CDNResources,静态资源`,
     `RULE-SET,AdditionalCDNResources,静态资源`,
     `RULE-SET,SteamFix,${PROXY_GROUPS.DIRECT}`,
-    `DOMAIN,services.googleapis.cn,${PROXY_GROUPS.SELECT}`,
     "GEOSITE,CATEGORY-AI-!CN,AI",
-    `GEOSITE,GOOGLE-PLAY@CN,${PROXY_GROUPS.DIRECT}`,
     `GEOSITE,MICROSOFT@CN,${PROXY_GROUPS.DIRECT}`,
     "GEOSITE,ONEDRIVE,OneDrive",
     "GEOSITE,MICROSOFT,Microsoft",
     "GEOSITE,TELEGRAM,Telegram",
     "GEOSITE,YOUTUBE,YouTube",
-    "GEOSITE,GOOGLE,Google",
     "GEOSITE,NETFLIX,Netflix",
     "GEOSITE,BILIBILI,Bilibili",
     `GEOSITE,GFW,${PROXY_GROUPS.SELECT}`,
@@ -525,12 +522,6 @@ function buildProxyGroups({
         {
             "name": "AI",
             "icon": "https://gcore.jsdelivr.net/gh/powerfullz/override-rules@master/icons/chatgpt.png",
-            "type": "select",
-            "proxies": defaultProxies
-        },
-        {
-            "name": "Google",
-            "icon": "https://gcore.jsdelivr.net/gh/powerfullz/override-rules@master/icons/Google.png",
             "type": "select",
             "proxies": defaultProxies
         },
